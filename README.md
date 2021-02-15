@@ -10,3 +10,5 @@ Length: 80
 Unique: Checked (True)
 Case Sensitive: Checked (True)
 External Id: Checked (True)
+
+This field is also included this package.
