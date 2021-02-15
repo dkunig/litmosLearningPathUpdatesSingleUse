@@ -1,0 +1,1 @@
+[{"Id":"aBcDe","Name":"My Test Learning Path","Description":"This is a test description","Active":true,"OriginalId":123456,"ForSale":false,"Price":0,"EcommerceShortDescription":"","EcommerceLongDescription":"","AccessTillDate":null,"AccessTillDays":null,"IsEquivalency":false,"LearningPathTeamLibrary":false,"Languages":""}]
