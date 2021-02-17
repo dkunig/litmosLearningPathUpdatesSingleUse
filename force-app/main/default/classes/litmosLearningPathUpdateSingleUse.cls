@@ -22,7 +22,7 @@ public class litmosLearningPathUpdateSingleUse {
                 for(Object o : results) {
 					Map<String,Object> obj = (Map<String,Object>) o;
                     path.Litmos__Active__c = Boolean.valueOf(obj.get('Active'));
-                    path.Litmos__Description__c = String.valueOf(obj.get('Description')).length() > 255 ? String.valueOf(obj.get('Description')).substring(0,254) : String.valueOf(obj.get('Description'));
+                    path.Litmos__Description__c = String.valueOf(obj.get('Description'));
                     path.Litmos_Full_Id__c  = String.valueOf(obj.get('Id'));
                 }
             }
