@@ -3,7 +3,7 @@ public class litmosLearningPathUpdateSingleUse {
 
     public static void litmosLPUpdatesSingleUse() {
         //get all learning paths
-        List<Litmos__LearningPath__c> paths = [SELECT Id,Name,Litmos_Full_Id__c,Litmos__Description__c,Litmos__Active__c FROM Litmos__LearningPath__c];
+        List<Litmos__LearningPath__c> paths = [SELECT Id,Name,Litmos_Full_Id__c,Full_Description__c,Litmos__Active__c FROM Litmos__LearningPath__c];
 
         //uncomment this section to retrieve info from your org if it's been entered.
         //String apikey = config.Litmos__Api_Key__c;
