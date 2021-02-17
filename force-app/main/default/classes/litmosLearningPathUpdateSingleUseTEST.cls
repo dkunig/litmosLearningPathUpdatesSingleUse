@@ -25,6 +25,6 @@ public class litmosLearningPathUpdateSingleUseTEST {
         litmosLearningPathUpdateSingleUse.litmosLPUpdatesSingleUse();
         Test.stopTest();
         System.assertEquals(1, [SELECT count() FROM Litmos__LearningPath__c WHERE Litmos_Full_Id__c = 'aBcDe' AND Litmos__Active__c = true]);
-        System.assertEquals('This is a test description',[SELECT Litmos__Description__c FROM Litmos__LearningPath__c].Litmos__Description__c);
+        System.assertEquals('This is a test description',[SELECT Full_Description__c FROM Litmos__LearningPath__c].Litmos__Description__c);
     }
 }
